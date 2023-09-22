@@ -4,24 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> qr </title>
+  <title>btn clickk</title>
+  
+  <style>
+    button{
+      color:cyan;
+      border-radius: 10px;
+      font-size: 50px;
+      margin-top:80%;
+      margin-left:70px;
+      background-color: black;
+      border-color: cyan;
+      padding: 20px;
+    }
+  </style>
 </head>
 
-<body>
-  
-  <input>
-  <img src="">
-  <button onclick="fn1()">generate</button>
-
+<body bgcolor="black">
+<button onclick="fn1()">Click me </button>
 </body>
 
 <script>
   function fn1(){
-    var inp = document.getElementsByTagName("input").value;
-    var im =document.getElementsByTagName("img");
-    im.src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + inp;
+    window.open("ss.html")
   }
-  
 </script>
-
 </html>
